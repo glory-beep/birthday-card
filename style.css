@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+}
+header {
+    background-color: whitesmoke;
+    color: black;
+    padding: 30px;
+}
+h1 {
+    margin: 0;
+    font-size: xx-large;
+}
+.gallery {
+    padding: 20px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.images img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: inset;
+}
+.message {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+}
+.footer {
+    background-color: brown;
+    color: whitesmoke;
+    padding: 10px;
+}
